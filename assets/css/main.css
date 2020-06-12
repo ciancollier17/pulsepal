@@ -22,6 +22,17 @@
 	padding-right: 2rem;
 }
 
+/* Signup Form */
+
+.mc-field-group {
+	margin: auto !important;
+	padding-bottom: 1.5rem;
+}
+
+.mc-field-group label {
+	float: left;
+}
+
 
 /* Reset */
 
@@ -1985,7 +1996,7 @@
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 0 2.2em;
 			}
 
 		}
@@ -2996,6 +3007,7 @@
 		visibility: hidden;
 		overflow-y: auto;
 		position: fixed;
+		z-index: 150;
 		left: 0;
 		top: 0;
 		background: #222;
