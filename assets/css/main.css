@@ -23,6 +23,7 @@ body {
 }
 
 .backer-gallery img {
+	max-width: 100%;
 	padding-left: 2rem;
 	margin-bottom:  3rem;
 	padding-right: 2rem;
