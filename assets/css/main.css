@@ -1869,6 +1869,16 @@ body {
 		white-space: nowrap;
 	}
 
+		@media only screen and (max-width: 380px) {
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			button,
+			.button {
+				padding: 0 1em;
+			}
+		}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -2492,12 +2502,15 @@ body {
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			width: 100%;
+			overflow: hidden;
 		}
 
 			ul.actions li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0;
 				vertical-align: middle;
+				width: 100%;
 			}
 
 				ul.actions li:last-child {
@@ -3150,6 +3163,7 @@ body {
 		background-size: cover;
 		line-height: 1.75;
 		text-align: center;
+		overflow-x: hidden;
 	}
 
 		#banner:last-child {
