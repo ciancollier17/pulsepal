@@ -11,6 +11,10 @@
 	PulsePal Custom Elements
 */
 
+body {
+	overflow-x: hidden !important;
+}
+
 .backer-gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -19,8 +23,19 @@
 
 .backer-gallery img {
 	padding-left: 2rem;
+	margin-bottom:  3rem;
 	padding-right: 2rem;
 }
+
+	@media screen and (max-width: 380px) {
+		.backer-gallery img {
+			padding-left: 2rem;
+			margin-bottom:  3rem;
+			padding-right: 2rem;
+			max-width: 90%;
+			height:auto;
+		}	
+	}
 
 /* Signup Form */
 
@@ -93,7 +108,7 @@
 	.container.\31 25\25 {
 		width: 100%;
 		max-width: 100em;
-		min-width: 80em;
+		min-width: 60em;
 	}
 
 	.container.\37 5\25 {
@@ -216,7 +231,7 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 380px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -1360,7 +1375,7 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 380px) {
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -1585,7 +1600,7 @@
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width:  380px) {
 
 		html, body {
 			min-width: 320px;
@@ -1667,10 +1682,10 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 380px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -1910,6 +1925,16 @@
 			font-size: 1.35em;
 		}
 
+			@media only screen and (max-width: 380px) {
+				input[type="submit"].big,
+				input[type="reset"].big,
+				input[type="button"].big,
+				button.big,
+				.button.big {
+					font-size: 1em;
+				}
+			}
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
@@ -1989,16 +2014,15 @@
 				background-color: #f21040;
 			}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 380px) {
 
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
 			button,
 			.button {
-				padding: 0 2.2em;
+				padding: 0 0.5em;
 			}
-
 		}
 
 /* Feature */
@@ -2080,7 +2104,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 380px) {
 
 			.feature-grid .feature .content,
 			.feature-grid .feature .image {
@@ -2529,7 +2553,7 @@
 						padding: 0 0 0 0.5em;
 					}
 
-			@media screen and (max-width: 480px) {
+			@media screen and (max-width: 380px) {
 
 				ul.actions {
 					margin: 0 0 2em 0;
@@ -2539,7 +2563,7 @@
 						padding: 1em 0 0 0;
 						display: block;
 						text-align: center;
-						width: 100%;
+						/*width: 100%;*/
 					}
 
 						ul.actions li:first-child {
@@ -2666,7 +2690,7 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 380px) {
 
 		header.major h2 {
 			font-size: 1.75em;
@@ -2800,7 +2824,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 380px) {
 
 			.wrapper {
 				padding: 2em 0 0.1em 0;
@@ -3117,10 +3141,10 @@
 	}
 
 	#banner {
-		padding: 16em 0 13em 0;
+		padding: 29em 0 10em 0;
 		background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: center top;
+		background-position: center bottom;
 		background-size: cover;
 		line-height: 1.75;
 		text-align: center;
@@ -3185,7 +3209,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 380px) {
 
 			#banner {
 				padding: 4em 2em 4em 2em;
@@ -3281,7 +3305,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 380px) {
 
 			#footer {
 				padding: 3em 0 1em 0;
