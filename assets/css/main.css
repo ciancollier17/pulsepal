@@ -1869,7 +1869,7 @@ body {
 		white-space: nowrap;
 	}
 
-		@media only screen and (max-width: 380px) {
+		@media screen and (max-width: 736px) {
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
@@ -3164,6 +3164,9 @@ body {
 		line-height: 1.75;
 		text-align: center;
 		overflow-x: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 		#banner:last-child {
@@ -3183,6 +3186,8 @@ body {
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
+			text-align: center;
+			width: 100%;
 		}
 
 		@media screen and (max-width: 1280px) {
