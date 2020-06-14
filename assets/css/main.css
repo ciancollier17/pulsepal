@@ -3214,7 +3214,8 @@ body {
 
 			#banner {
 				padding: 6em 2em 6em 2em;
-				background-image: url("images/overlay.png"), url("../../images/banner-mobile.jpg");			
+				background-image: url("images/overlay.png"), url("../../images/banner-mobile.jpg");
+				background-size: contain;			
 			}
 
 				#banner br {
