@@ -2810,6 +2810,7 @@ body {
 			@media screen and (max-width: 980px) {
 				.wrapper.style3 {
 					background-image: url("images/overlay.png"), url("../../images/banner-portrait-tablet.jpg");
+					background-position: center top;
 				}
 			}
 
