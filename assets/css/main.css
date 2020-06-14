@@ -2804,8 +2804,14 @@ body {
 			background-attachment: fixed;
 			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 			background-position: center center;
-			background-size: cover;
+			background-size: 100% auto;
 		}
+
+			@media screen and (max-width: 768px) {
+				.wrapper.style3 {
+					background-image: url("images/overlay.png"), url("../../images/banner-mobile.jpg");
+				}
+			}
 
 			.wrapper.style3 header.major {
 				margin-bottom: 3em;
@@ -3160,7 +3166,7 @@ body {
 		background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: center bottom;
-		background-size: cover;
+		background-size: 100% auto;
 		line-height: 1.75;
 		text-align: center;
 		overflow-x: hidden;
