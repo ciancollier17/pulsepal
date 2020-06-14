@@ -2807,6 +2807,12 @@ body {
 			background-size: 100% auto;
 		}
 
+			@media screen and (max-width: 980px) {
+				.wrapper.style3 {
+					background-image: url("images/overlay.png"), url("../../images/banner-mobile.jpg");
+				}
+			}
+
 			@media screen and (max-width: 768px) {
 				.wrapper.style3 {
 					background-image: url("images/overlay.png"), url("../../images/banner-mobile.jpg");
@@ -3166,6 +3172,7 @@ body {
 		background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: center bottom;
+		background-repeat: no-repeat;
 		background-size: 100% auto;
 		line-height: 1.75;
 		text-align: center;
@@ -3200,6 +3207,9 @@ body {
 
 			#banner {
 				padding: 14em 0 11em 0;
+				background-image: url("images/overlay.png"), url("../../images/banner-tablet-landscape.jpg");
+				background-position: center center;
+				background-size: 100% auto;
 			}
 
 				#banner h2 {
@@ -3212,7 +3222,7 @@ body {
 
 			#banner {
 				padding: 9em 0 7em 0;
-				background-image: url("images/overlay.png"), url("../../images/banner-mobile.jpg");
+				background-image: url("images/overlay.png"), url("../../images/banner-portrait-tablet.jpg");
 				background-size: 100% auto;			
 				background-position: center top;
 			}
