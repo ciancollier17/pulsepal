@@ -3217,7 +3217,7 @@ body {
 			#banner {
 				padding: 6em 2em 6em 2em;
 				background-image: url("images/overlay.png"), url("../../images/banner-mobile.jpg");
-				background-size: auto 100%;			
+				background-size: 100% auto;			
 			}
 
 				#banner br {
